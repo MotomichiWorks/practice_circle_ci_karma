@@ -1,0 +1,2 @@
+# practice_circle_ci_karma
+karmaを導入して、CircleCIで実行するサンプルを作成してみます。
