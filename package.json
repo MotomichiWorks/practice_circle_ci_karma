@@ -1,0 +1,29 @@
+{
+  "name": "practice_circle_ci_karma",
+  "version": "1.0.0",
+  "description": "karmaを導入して、CircleCIで実行するサンプルを作成してみます。",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "xxxxxx/practice_circle_ci_karma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "xxxxxx/practice_circle_ci_karma/issues"
+  },
+  "homepage": "xxxxxx/practice_circle_ci_karma#readme",
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "karma": "^1.7.0",
+    "karma-cli": "^1.0.1",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.3",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "mocha": "^3.4.2",
+    "phantomjs": "^2.1.7"
+  }
+}
