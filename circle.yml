@@ -1,0 +1,7 @@
+dependencies:
+  pre:
+    - npm --prefix ./frontend install ./frontend
+
+test:
+  pre:
+    - ./frontend/node_modules/karma/bin/karma start ./frontend/karma.conf.js --single-run
